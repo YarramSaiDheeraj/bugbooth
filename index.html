@@ -105,48 +105,35 @@
 </div>
 
 <!-- LEVEL 2 -->
+<!-- LEVEL 2 -->
 <div id="level2" class="screen">
-  <h2>Level 2 – Syntax Bug</h2>
+  <h2>Level 2 – Python Syntax Bug</h2>
 
   <div class="bug-box">
     <b>Bug Type:</b> Syntax Error <br>
-    <b>Hint:</b> Missing colon and indentation
+    <b>Hint:</b> Missing colon / indentation
   </div>
 
-<pre style="text-align:left;width:80%;margin:auto;background:#0f172a;padding:15px;border-radius:10px;">
-def check_even(num)
-    if num % 2 == 0
-        print("Even")
-    else
-        print("Odd")
-
-check_even(5)
-</pre>
+  <iframe src="https://onecompiler.com/embed/python/44dyycq4k"></iframe>
 
   <button class="btn" onclick="goLevel(3)">Next Level ➡️</button>
 </div>
 
+
 <!-- LEVEL 3 -->
 <div id="level3" class="screen">
-  <h2>Level 3 – Runtime Bug</h2>
+  <h2>Level 3 – Python Runtime Bug</h2>
 
   <div class="bug-box">
     <b>Bug Type:</b> Runtime Error <br>
     <b>Hint:</b> Division by zero
   </div>
 
-<pre style="text-align:left;width:80%;margin:auto;background:#0f172a;padding:15px;border-radius:10px;">
-numbers = [10, 20, 0, 5]
-
-total = 0
-for n in numbers:
-    total = total + (100 / n)
-
-print("Total:", total)
-</pre>
+  <iframe src="https://onecompiler.com/embed/python/44dyyka6d"></iframe>
 
   <button class="btn" onclick="finish()">Finish Game 🎉</button>
 </div>
+
 
 <script>
 let time = 900; // 15 minutes total
@@ -194,3 +181,4 @@ function finish() {
 
 </body>
 </html>
+
